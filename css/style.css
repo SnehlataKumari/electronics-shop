@@ -1096,7 +1096,7 @@ section {
 .slider-one__text {
 	margin: 0;
 	color: #fff;
-	font-size: 17px;
+	font-size: 47px;
 	letter-spacing: .02em;
 	margin-top: 15px;
 	-webkit-animation-duration: 1s;
@@ -1375,9 +1375,9 @@ a.slider-one__text {
 .inner-wrapper.about-sec {
 	padding: 80px 0;
 }
-.about-sec {
+/* .about-sec {
 	padding-top: 0;
-}
+} */
 .about-sec .video-promo-content h2 {
 	font-size: 40px;
 	font-weight: 700;
@@ -1559,6 +1559,11 @@ a.video-play-icon-without-bip:hover {
 	margin-bottom: 15px;
 	margin-top: -4px;
 }
+.single-service .service-heading ul {
+	color: #ffffff;
+	margin-bottom: 15px;
+	margin-top: -4px;
+}
 .single-service .service-heading .circle-read-more i {
 	background-color: #ffffff;
 	color: #f20930;
@@ -1569,10 +1574,10 @@ a.video-play-icon-without-bip:hover {
 .single-service:hover {
 	background-color: transparent;
 }
-.single-service:hover .service-heading {
+/* .single-service:hover .service-heading {
 	-webkit-transform: scale(1);
 	transform: scale(1);
-}
+} */
 .service-area-two .single-service .service-heading {
   background-image: url(https://www.gegridsolutions.com/services/alm-services/images/prod-ALM.jpg);
 	background-color: #f20930;
@@ -1594,10 +1599,10 @@ a.video-play-icon-without-bip:hover {
 	opacity: 0.9;
 	margin-left: 0;
 }
-.single-service:hover .service-content-wrap {
+/* .single-service:hover .service-content-wrap {
 	-webkit-transform: scale(0);
 	transform: scale(0);
-}
+} */
 .service-all {
 	margin-top: 20px;
 }
@@ -1891,6 +1896,11 @@ a.video-play-icon-without-bip:hover {
 10. Our Team Sec 
 ================================================
 */
+
+.our-team-sec {
+	background: #f6f8ff;
+}
+
 .our-team-sec .section-title {
 	margin:0;
 }
@@ -4008,3 +4018,23 @@ a.video-play-icon-without-bip:hover {
 	padding: 20px;
 	text-align: center;
   }
+
+  .products {
+	  background-color: white;
+  }
+
+  .vision {
+	  background-color: #f6f8ff;
+  }
+
+  .quick-call {
+    position: absolute;
+    right: 50px;
+    color: red;
+  }
+
+@media (max-width: 425px) {
+  .quick-call  {
+	display: none;
+	}
+}
